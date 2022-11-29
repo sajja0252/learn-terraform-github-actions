@@ -18,6 +18,10 @@ terraform {
    workspaces {
       name = "gh-actions-demo"
     }
-    token = "ztgnfU9zgsQ1sw.atlasv1.ywg10fy27B0NF199CyzaU7IYLYEv7UJRpxEyay9kLGx4eOa7SjkGNYlAdKdUbcyxZIU"
   }
+}
+
+credentials "app.terraform.io" {
+  token = "ztgnfU9zgsQ1sw.atlasv1.ywg10fy27B0NF199CyzaU7IYLYEv7UJRpxEyay9kLGx4eOa7SjkGNYlAdKdUbcyxZIU"
+  # this being a team or user token (not an organisation token)
 }
